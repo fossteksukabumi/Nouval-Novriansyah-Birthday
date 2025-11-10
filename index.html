@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selamat Ulang Tahun 🎂</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div id="intro">
+      <div class="intro-content">
+        <h1>🎉 Selamat Ulang Tahun 🎉</h1>
+        <p>Klik tombol di bawah untuk mulai perayaan!</p>
+        <button id="startButton">Mulai Perayaan</button>
+      </div>
+    </div>
+
+   
+    <div id="balloonContainer"></div>
+    <div id="confettiContainer"></div>
+
+ 
+    <div id="mainContent" class="hidden">
+      <header>
+        <h1>Selamat Ulang Tahun Nouval Novriansyah!</h1>
+        <p>Semoga hari spesialmu penuh kebahagiaan 💐</p>
+      </header>
+
+    
+      <section class="slideshow">
+        <div class="slides fade">
+          <img src="assets/images/1.jpg" alt="Foto 1" />
+        </div>
+        <div class="slides fade">
+          <img src="assets/images/2.jpg" alt="Foto 2" />
+        </div>
+        <div class="slides fade">
+          <img src="assets/images/3.jpg" alt="Foto 3" />
+        </div>
+        <div class="slides fade">
+          <img src="assets/images/4.jpg" alt="Foto 4" />
+        </div>
+        <div class="dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+
+        <section class="video-section">
+        <h2>Video Ucapan Dari Ibu Kepsta LPP RRI Bogor  ( Ibu Noerdiana)</h2>
+        <div class="video-container">
+            <iframe
+            src="https://www.youtube.com/embed/luzPxqg8h5Q?enablejsapi=1"
+            title="Video Kenangan 1"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            ></iframe>
+        </div>
+
+        <h2>Video Ucapan Dari Rekan-Rekan</h2>
+        <div class="video-container">
+            <iframe
+            src="https://www.youtube.com/embed/HdAYoXjiRN8?enablejsapi=1"
+            title="Video Kenangan 2"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            ></iframe>
+        </div>
+        </section>
+
+      <footer>
+        <p>💖 Dibuat dengan cinta untuk hari spesialmu 💖</p>
+      </footer>
+    </div>
+
+    <!-- Musik -->
+    <audio id="bgMusic" loop>
+      <source src="assets/music/happy-birthday.mp3" type="audio/mp3" />
+    </audio>
+
+    <!-- Script -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
